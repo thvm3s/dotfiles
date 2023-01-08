@@ -2,4 +2,5 @@
 
 ## Installation
 
-- Tmux: `ln -s $PWD/tmux ~/.config/tmux`
+- tmux: `ln -s $PWD/tmux ~/.config/tmux`
+- nvim: `ln -s $PWD/nvim ~/.config/nvim`
