@@ -13,5 +13,6 @@ packer.startup(function(use)
   use 'nvim-telescope/telescope.nvim'
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'noahfrederick/vim-hemisu'
+  use 'windwp/nvim-autopairs'
 end)
 
