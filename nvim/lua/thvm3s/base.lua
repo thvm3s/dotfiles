@@ -30,6 +30,7 @@ vim.opt.path:append { '**' } -- Finding files - Search down into subfolders
 vim.opt.wildignore:append { '*/node_modules/*' }
 
 vim.g.colors_name = "hemisu"
+vim.g.mapleader = ";"
 
 -- Undercurl
 vim.cmd([[let &t_Cs = "\e[4:3m"]])

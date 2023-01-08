@@ -1,5 +1,8 @@
 local keymap = vim.keymap
 
+keymap.set('n', '<leader>w', ':w<CR>')
+keymap.set('n', '<Space><Space>', '<C-^>')
+
 keymap.set('n', 'x', '"_x')
 
 -- Increment/decrement
