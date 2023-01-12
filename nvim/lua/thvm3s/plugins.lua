@@ -14,5 +14,9 @@ packer.startup(function(use)
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'noahfrederick/vim-hemisu'
   use 'windwp/nvim-autopairs'
+
+  -- Install by hand under Packer section here:
+  -- https://github.com/iamcco/markdown-preview.nvim
+  use "iamcco/markdown-preview.nvim"
 end)
 
