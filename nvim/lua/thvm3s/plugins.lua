@@ -18,5 +18,6 @@ packer.startup(function(use)
   -- Install by hand under Packer section here:
   -- https://github.com/iamcco/markdown-preview.nvim
   use "iamcco/markdown-preview.nvim"
+  use "RRethy/vim-illuminate"
 end)
 
