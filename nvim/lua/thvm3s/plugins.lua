@@ -19,5 +19,6 @@ packer.startup(function(use)
   -- https://github.com/iamcco/markdown-preview.nvim
   use "iamcco/markdown-preview.nvim"
   use "RRethy/vim-illuminate"
+  use "SidOfc/mkdx"
 end)
 
