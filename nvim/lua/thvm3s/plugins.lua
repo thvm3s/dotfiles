@@ -20,5 +20,6 @@ packer.startup(function(use)
   use "iamcco/markdown-preview.nvim"
   use "RRethy/vim-illuminate"
   use "SidOfc/mkdx"
+  use "wojciechkepka/vim-github-dark"
 end)
 
