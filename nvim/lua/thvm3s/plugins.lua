@@ -21,5 +21,6 @@ packer.startup(function(use)
   use "RRethy/vim-illuminate"
   use "SidOfc/mkdx"
   use "wojciechkepka/vim-github-dark"
+  use "arzg/vim-colors-xcode"
 end)
 
