@@ -2,5 +2,10 @@
 
 ## Installation
 
-- tmux: `ln -s $PWD/tmux ~/.config/tmux`
-- nvim: `ln -s $PWD/nvim ~/.config/nvim`
+```
+ln -s $PWD/tmux ~/.config/tmux
+ln -s $PWD/nvim ~/.config/nvim
+npm i -g typescript-language-server
+brew install tree-sitter
+npm install -g @fsouza/prettierd
+```
