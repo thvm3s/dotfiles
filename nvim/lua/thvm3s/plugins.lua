@@ -14,6 +14,7 @@ packer.startup(function(use)
   use 'nvim-telescope/telescope-file-browser.nvim'
   use 'noahfrederick/vim-hemisu'
   use 'windwp/nvim-autopairs'
+  use 'tpope/vim-commentary'
 
   -- Install by hand under Packer section here:
   -- https://github.com/iamcco/markdown-preview.nvim
@@ -22,6 +23,7 @@ packer.startup(function(use)
   use "SidOfc/mkdx"
   use "wojciechkepka/vim-github-dark"
   use "arzg/vim-colors-xcode"
+  use ({ 'projekt0n/github-nvim-theme', tag = 'v0.0.7' })
   use 'onsails/lspkind-nvim' -- vscode-like pictograms
   use 'hrsh7th/cmp-buffer' -- nvim-cmp source for buffer words
   use 'hrsh7th/cmp-nvim-lsp' -- nvim-cmp source for neovim's built-in LSP
@@ -42,6 +44,6 @@ packer.startup(function(use)
         --Please make sure you install markdown and markdown_inline parser
         {"nvim-treesitter/nvim-treesitter"}
     }
-})
+  })
 end)
 
