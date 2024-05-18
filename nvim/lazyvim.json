@@ -1,7 +1,7 @@
 {
   "extras": [
-    "lazyvim.plugins.extras.editor.aerial",
     "lazyvim.plugins.extras.editor.leap",
+    "lazyvim.plugins.extras.editor.trouble-v3",
     "lazyvim.plugins.extras.formatting.prettier",
     "lazyvim.plugins.extras.lang.go",
     "lazyvim.plugins.extras.lang.markdown",
@@ -11,7 +11,7 @@
     "lazyvim.plugins.extras.util.gitui"
   ],
   "news": {
-    "NEWS.md": "3314"
+    "NEWS.md": "4885"
   },
   "version": 3
 }
