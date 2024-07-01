@@ -4,7 +4,7 @@ return {
     priority = 1000,
   },
   {
-    "projekt0n/github-nvim-theme",
+    "rebelot/kanagawa.nvim",
     priority = 1000,
   },
   {
@@ -21,9 +21,15 @@ return {
       transparent_background = false,
       color_overrides = {
         mocha = {
-          base = "#000000",
-          mantle = "#000000",
-          crust = "#000000",
+          -- base = "#000000",
+          -- mantle = "#000000",
+          -- crust = "#000000",
+        },
+
+        latte = {
+          base = "#ffffff",
+          -- mantle = "#ffffff",
+          -- crust = "#ffffff",
         },
       },
     },

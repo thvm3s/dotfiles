@@ -5,4 +5,12 @@ return {
     vim.g.mkdp_markdown_css = "/Users/thames/.config/nvim/markdown.css"
     vim.g.mkdp_refresh_slow = 1
   end,
+  keys = {
+    {
+      "<leader>cp",
+      ft = "markdown",
+      "<cmd>MarkdownPreview<cr>",
+      desc = "Markdown Preview",
+    },
+  },
 }

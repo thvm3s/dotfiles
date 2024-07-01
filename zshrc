@@ -99,9 +99,12 @@ if ! zplug check --verbose; then
 fi
 
 alias icloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"
+alias oo="cd ~/Library/Mobile\ Documents/iCLoud~md~obsidian/Documents/thames"
 alias home="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs/home"
+alias nv="cd ~/.config/nvim"
 alias lzg=lazygit
 alias g=git
+alias n=nvim
 
 # User configuration
 
@@ -116,6 +119,7 @@ alias g=git
 # else
 #   export EDITOR='mvim'
 # fi
+export EDITOR=nvim
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -140,8 +144,6 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 export PATH="/Users/thames/go/bin:$PATH"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-
-export OPENAI_API_KEY=sk-HXPSfmMse9Pf6pAmdtOlT3BlbkFJrhpnmJRSYUZBz9jNNxRgsk
 
 alias cat=bat
 
